@@ -1,0 +1,24 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "pStorageAccountName": {
+            "value": "valasdeveastusstorage1" 
+        },
+        "pLocation": {
+            "value": "eastus" 
+        },
+        "pAppServicePlan": {
+            "value": "valas-dev-eus-asp1"
+        },
+        "pFunctionApp": {
+            "value": "valas-dev-eus-fapp1"
+        },
+        "pFunctionAppName": {
+            "value": "valas-dev-eus-fappname1"
+        },
+        "pServerFarmID":{
+            "value": "default"
+        }
+    }
+}

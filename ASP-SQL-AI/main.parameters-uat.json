@@ -1,0 +1,24 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "pAppServicePlan": {
+            "value": "uk-uat-swecen-asp1"
+        },
+        "pAppService": {
+            "value": "uk-uat-swecen-as"
+        },
+        "pInstrumentationString": {
+            "value": "abc"
+        },
+        "psqlServer": {
+            "value": "uk-uat-eus-sqlserver1"
+        },
+        "psqlServerFWR": {
+            "value": "ipwhitelisting-uat"
+        },
+        "psqlServerDatabase": {
+            "value": "uk-uat-eus-sqldb3"
+        }
+    }
+}

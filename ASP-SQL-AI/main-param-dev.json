@@ -1,0 +1,35 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "pAppServicePlan": {
+            "value": "uk-dev-swecen-asp1"
+        },
+        "pAppService": {
+            "value": "uk-dev-swecen-as"
+        },
+        "pInstrumentationString": {
+            "value": "abc"
+        },
+        "psqlServer": {
+            "value": "uk-dev-eus-sqlserver1"
+        },
+        "psqlServerFWR": {
+            "value": "ipwhitelisting-dev"
+        },
+        "psqlServerDatabase": {
+            "value": "uk-dev-eus-sqldb4"
+        },
+        "psqllogin": {
+            "value": "sqladmin1"
+        },
+        "psqlpasswd": {
+            "reference": {
+                "keyVault": {
+                    "id": "/subscriptions/8da12f83-16c4-4e53-b073-bb70139a70b9/resourceGroups/udairg/providers/Microsoft.KeyVault/vaults/valas-dev-sqlkv4"
+                },
+                "secretName": "mysqlpasswd"
+            }
+        }
+    }
+}
