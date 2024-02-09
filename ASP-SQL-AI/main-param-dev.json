@@ -26,7 +26,7 @@
         "psqlpasswd": {
             "reference": {
                 "keyVault": {
-                    "id": "/subscriptions/8da12f83-16c4-4e53-b073-bb70139a70b9/resourceGroups/udairg/providers/Microsoft.KeyVault/vaults/valas-dev-sqlkv4"
+                    "id": "/subscriptions/xxx/resourceGroups/udairg/providers/Microsoft.KeyVault/vaults/valas-dev-sqlkv4"
                 },
                 "secretName": "mysqlpasswd"
             }
